@@ -18,6 +18,8 @@ import (
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+	"fmt"
+	"runtime"
 )
 
 const (
@@ -349,10 +351,12 @@ var (
 )
 
 func file_sso_sso_proto_rawDescGZIP() []byte {
-	file_sso_sso_proto_rawDescOnce.Do(func() {
+	fmt.Println("Версия Go:", runtime.Version()) 
+	return nil
+	/*file_sso_sso_proto_rawDescOnce.Do(func() {
 		file_sso_sso_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_sso_sso_proto_rawDesc), len(file_sso_sso_proto_rawDesc)))
 	})
-	return file_sso_sso_proto_rawDescData
+	return file_sso_sso_proto_rawDescData*/
 }
 
 var file_sso_sso_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
