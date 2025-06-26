@@ -350,13 +350,13 @@ var (
 
 func file_sso_sso_proto_rawDescGZIP() []byte {
 	file_sso_sso_proto_rawDescOnce.Do(func() {
-		file_sso_sso_proto_rawDescData = protoimpl.X.CompressGZIP(file_sso_sso_proto_rawDesc, len(file_sso_sso_proto_rawDesc))
+		file_sso_sso_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_sso_sso_proto_rawDesc), len(file_sso_sso_proto_rawDesc)))
 	})
 	return file_sso_sso_proto_rawDescData
 }
 
 var file_sso_sso_proto_msgTypes = make([]protoimpl.MessageInfo, 6)
-var file_sso_sso_proto_goTypes = []interface{}{
+var file_sso_sso_proto_goTypes = []any{
 	(*RegisterRequest)(nil),  // 0: auth.RegisterRequest
 	(*RegisterResponse)(nil), // 1: auth.RegisterResponse
 	(*LoginRequest)(nil),     // 2: auth.LoginRequest
@@ -387,7 +387,7 @@ func file_sso_sso_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_sso_sso_proto_rawDesc, len(file_sso_sso_proto_rawDesc),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_sso_sso_proto_rawDesc), len(file_sso_sso_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   6,
 			NumExtensions: 0,
