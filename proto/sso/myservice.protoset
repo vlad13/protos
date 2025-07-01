@@ -1,0 +1,22 @@
+
+¡
+	sso.protoauth"C
+RegisterRequest
+email (	Remail
+password (	Rpassword"+
+RegisterResponse
+user_id (RuserId"W
+LoginRequest
+email (	Remail
+password (	Rpassword
+app_id (RappId"%
+LoginResponse
+token (	Rtoken")
+IsAdminRequest
+user_id (RuserId",
+IsAdminResponse
+is_admin (RisAdmin2«
+Auth9
+Register.auth.RegisterRequest.auth.RegisterResponse0
+Login.auth.LoginRequest.auth.LoginResponse6
+IsAdmin.auth.IsAdminRequest.auth.IsAdminResponseBZ/gen/go/ssobproto3
