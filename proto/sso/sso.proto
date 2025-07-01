@@ -8,8 +8,8 @@ package auth;
 
 // Настройки для генерации Go кода.
 // option go_package = "tuzov.sso.v1;ssov1";
-option go_package = "/gen/go/sso"; // в go текущий пакет вызывается так: "github.com/vlad13/protos/gen/go/sso"
-//option go_package = "/xz";
+//option go_package = "/gen/go/sso"; // в go текущий пакет вызывается так: "github.com/vlad13/protos/gen/go/sso"
+option go_package = "/xz";
 
 // Auth is service for managing permissions and roles.
 service Auth {

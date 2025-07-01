@@ -10,7 +10,7 @@
 
 // Текущий пакет - указывает пространство имен для сервиса и сообщений. Помогает избегать конфликтов имен.
 
-package sso
+package xz
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -341,7 +341,7 @@ const file_sso_sso_proto_rawDesc = "" +
 	"\x04Auth\x129\n" +
 	"\bRegister\x12\x15.auth.RegisterRequest\x1a\x16.auth.RegisterResponse\x120\n" +
 	"\x05Login\x12\x12.auth.LoginRequest\x1a\x13.auth.LoginResponse\x126\n" +
-	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB\rZ\v/gen/go/ssob\x06proto3"
+	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB\x05Z\x03/xzb\x06proto3"
 
 var (
 	file_sso_sso_proto_rawDescOnce sync.Once
